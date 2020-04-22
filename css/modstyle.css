@@ -1,0 +1,124 @@
+body{
+	background-color: #333;
+  font-family: Minecraftia, arial, sans-serif;
+	font-weight:normal;
+	font-style:normal;
+  color:white;
+}
+
+a:hover{
+	color:darkred;
+}
+
+#picdescription {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#piccreatures {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#picbosssummoning {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#picitems {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#picconfiguration{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#toppic{
+  padding-top: 2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mobnames{
+  font-family: Minecraftia, arial, sans-serif;
+  text-decoration: none;
+  color:white;
+  text-align: center;
+  padding-right: 1%;
+}
+
+.tame{
+  font-family: Minecraftia, arial, sans-serif;
+  text-decoration: none;
+  color:goldenrod;
+  padding-right: 1%;
+}
+
+.boss{
+  font-family: Minecraftia, arial, sans-serif;
+  text-decoration: none;
+  color: purple;
+  padding-right: 1%;
+}
+
+.texts{
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 2%;
+  text-align: center;
+  line-height: 170%;
+  /*weiß nich ob ich line height benutzen sollte*/
+}
+
+.picclass{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10%;
+}
+
+.button{
+  background-color:lightgrey;
+	color:#333;
+	padding:5px 10px;
+  border:none;
+  text-decoration: none;
+  font-style: italic;
+  font-size: small;
+}
+.button:hover{
+	background:darkred;
+	color:lightgrey;
+}
+
+.description{
+	position:fixed;
+	top:30%;
+}
+.creatures{
+	position:fixed;
+	top:38%;
+}
+.bosssummoning{
+	position:fixed;
+	top:46%;
+}
+.items{
+	position:fixed;
+	top:54%;
+}
+.configuration{
+	position:fixed;
+	top:62%;
+}
+
+
+
+@font-face {   font-family: "Minecraftia";
+  src: url("Minecraftia.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }

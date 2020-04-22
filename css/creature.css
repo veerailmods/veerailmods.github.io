@@ -1,0 +1,105 @@
+body{
+	background-color: #333;
+  font-family: Minecraftia, arial, sans-serif;
+	font-weight:normal;
+	font-style:normal;
+  color:white;
+}
+
+a:hover{
+	color:darkred;
+}
+
+#fill {
+
+  max-height: 100%;
+}
+
+
+#topname{
+  text-align: center;
+}
+
+.texts{
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 1%;
+}
+
+.drops{
+  padding-left: 8%;
+  padding-right: 2%;
+  width: auto;
+  height: auto;
+}
+
+.backgroundpic{
+float: right;
+width: 740px;
+height: 380px;
+margin-right: 8%;
+border: 2px solid #000;
+
+}
+
+.bottomtext{
+  display: block;
+  text-align: center;
+}
+
+.doi{
+  text-align: left;
+  padding-left: 8%;
+}
+
+.doi .tooltiptext{
+  visibility: hidden;
+  text-align: left;
+  color: darkgoldenrod;
+}
+.doi:hover .tooltiptext{
+  visibility: visible;
+}
+
+.picture{
+  padding-left: 30%;
+
+}
+
+.biomes{
+  padding-left: 8%;
+  padding-right: 8%;
+  word-spacing: 100vw;
+}
+
+.picclass{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10%;
+}
+
+.button{
+  background-color:lightgrey;
+	color:#333;
+	padding:5px 10px;
+  border:none;
+  text-decoration: none;
+  font-style: italic;
+  font-size: small;
+}
+.button:hover{
+	background:darkred;
+	color:lightgrey;
+}
+
+.description{
+  position: fixed;
+  left: 8%;
+	top:8%;
+}
+
+@font-face {   font-family: "Minecraftia";
+  src: url("Minecraftia.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
