@@ -9,7 +9,7 @@ body{
 a:hover{
 	color:darkred;
 }
-
+/*need these id´s for buttonjumping*/
 #picdescription {
   display: block;
   margin-left: auto;

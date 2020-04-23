@@ -40,6 +40,7 @@ max-height: 380px;
 margin-right: 8%;
 margin-left: 8%;
 text-align: center;
+padding-bottom: 3.5%;
 }
 
 .bottomtext{
@@ -103,3 +104,9 @@ text-align: center;
   src: url("Minecraftia.woff2") format("woff2");
   font-weight: normal;
   font-style: normal; }
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
