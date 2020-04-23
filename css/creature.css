@@ -76,6 +76,11 @@ padding-bottom: 3.5%;
   word-spacing: 100vw;
 }
 
+.extrabiomes{
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
 .picclass{
   display: block;
   margin-left: auto;

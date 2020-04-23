@@ -74,7 +74,15 @@ a:hover{
   padding-bottom: 5%;
   text-align: center;
   line-height: 170%;
-  /*weiß nich ob ich line height benutzen sollte*/
+}
+
+.textslessdistance{
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  text-align: center;
+  line-height: 170%;
 }
 
 .headings{
