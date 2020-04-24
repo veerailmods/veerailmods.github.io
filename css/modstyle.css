@@ -218,7 +218,10 @@ a:hover{
   width: 45%;
   border: 3px solid #000;
 }
-
+#ideapic{
+  width: 70%;
+  border: 3px solid #000;
+}
 
 @font-face {   font-family: "Minecraftia";
   src: url("Minecraftia.woff2") format("woff2");
