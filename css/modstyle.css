@@ -196,6 +196,28 @@ a:hover{
 .normaltext{
   line-height: 2em;
 }
+.picgetbigsecond{
+  display: inline-block;
+  width: 25%;
+  margin-left: 24%;
+  border: 3px solid #000;
+  text-align: center;
+}
+.picgetbigsecond:hover{
+  width: 45%;
+  border: 3px solid #000;
+}
+.picgetbigrightsecond{
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+  border: 3px solid #000;
+  text-align: center;
+}
+.picgetbigrightsecond:hover{
+  width: 45%;
+  border: 3px solid #000;
+}
 
 
 @font-face {   font-family: "Minecraftia";
