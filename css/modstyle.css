@@ -36,6 +36,7 @@ a:hover{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 5%;
 }
 
 #toppic{
@@ -164,6 +165,36 @@ a:hover{
   padding-bottom: 5%;
   margin-left: 15%;
   margin-right: 15%;
+}
+
+.hovering{
+  text-align: center;
+  margin-left: 26%;
+  margin-right: 26%;
+}
+#armor{
+  color: olive;
+}
+.armory{
+  width: 100%;
+}
+.hovering .armory{
+  display: none;
+}
+.hovering:hover .armory{
+  display: block;
+}
+.border{
+  border: 3px solid #000;
+}
+#weapon{
+  color: peru;
+}
+#misc{
+  color: burlywood;
+}
+.normaltext{
+  line-height: 2em;
 }
 
 
