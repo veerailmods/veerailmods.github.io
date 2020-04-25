@@ -1,0 +1,113 @@
+body{
+	background-color: #333;
+  font-family: Minecraftia, arial, sans-serif;
+	font-weight:normal;
+	font-style:normal;
+  color:white;
+}
+
+.leftrightpicturesleft{
+  display: inline-block;
+  width: 40%;
+  border: 3px solid #000;
+  margin-left: 9%;
+}
+.leftrightpicturesright{
+  display: inline-block;
+  width: 40%;
+  border: 3px solid #000;
+  vertical-align: top;
+}
+
+.smallheaders{
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 1.5%;
+}
+
+.normalpictures{
+  display: block;
+  border: 3px solid #000;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+/*Button Work + Theme Banner --------*/
+/*EquipZ -------*/
+#armorysign{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#buttonarmory{
+  position:fixed;
+	top:38%;
+}
+/*EquipZ -------*/
+#descriptionsign{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#buttondesription{
+  position:fixed;
+	top:30%;
+}
+.button{
+  background-color:lightgrey;
+	color:#333;
+	padding:5px 10px;
+  border:none;
+  text-decoration: none;
+  font-style: italic;
+  font-size: small;
+  position:fixed;
+  top:30%;
+  margin-top: 4%;
+  left: 1%;
+}
+.button:hover{
+	background:darkred;
+	color:lightgrey;
+}
+/*Button Work + Theme Banner --------*/
+
+.picturebanner{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.texts{
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
+  line-height: 170%;
+}
+
+#toppic{
+  margin-top: 2%;
+  padding-bottom: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Link Hovering*/
+a:hover{
+	color:darkred;
+}
+
+.classiclink{
+  font-family: Minecraftia, arial, sans-serif;
+  text-decoration: none;
+  color:white;
+}
+
+@font-face {   font-family: "Minecraftia";
+  src: url("Minecraftia.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
