@@ -8,7 +8,14 @@ body{
 
 #statement{
 	text-align: center;
-	padding-top: 5%;
+	padding-top: 2%;
+}
+
+#smallertexts{
+	text-align: center;
+	line-height: 2em;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 #navbar{
@@ -38,7 +45,7 @@ body{
 }
 
 #banner {
-	padding-top: 2%;
+	margin-top: 2%;
   display: block;
   margin-left: auto;
   margin-right: auto;
