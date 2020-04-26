@@ -45,6 +45,33 @@ body{
 	top:38%;
 }
 /*EquipZ -------*/
+/*AppleZ -------*/
+#itemssign{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#recipessign{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5%;
+}
+#buttonitems{
+  position:fixed;
+	top:38%;
+}
+#buttonrecipes{
+  position:fixed;
+	top:46%;
+}
+#makepicsmaller{
+  width: 40%;
+}
+#makepicsmaller2{
+  width: 20%;
+}
+/*AppleZ -------*/
 #descriptionsign{
   display: block;
   margin-left: auto;
