@@ -4,6 +4,7 @@ body{
 	font-weight:normal;
 	font-style:normal;
   color:white;
+  font-size:1.5vw;
 }
 
 a:hover{
@@ -227,3 +228,10 @@ a:hover{
   src: url("Minecraftia.woff2") format("woff2");
   font-weight: normal;
   font-style: normal; }
+
+  @media only screen and (max-width: 800px) {
+
+    img{
+      max-width: 50%;
+    }
+  }

@@ -4,6 +4,37 @@ body{
 	font-weight:normal;
 	font-style:normal;
   color:white;
+  font-size:1.5vw;
+}
+
+.heart{
+  width: 14%;
+  padding-left: 2%;
+}
+
+.list{
+  border-collapse: collapse;
+  width: 82%;
+  border: 2px solid black;
+  margin-left: 9%;
+  table-layout: auto;
+}
+
+tr{
+  text-align: left;
+  border: 2px solid black;
+ 
+}
+td{
+  border: 2px solid black;
+  padding-left: 1%;
+  padding-right: 2%;
+}
+th{
+  border: 2px solid black;
+ 
+  padding-left: 1%;
+  padding-right: 4%;
 }
 
 .leftrightpicturesleft{
@@ -133,8 +164,35 @@ a:hover{
   text-decoration: none;
   color:white;
 }
+/*BildPopUp*/
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  margin: 10% auto;
+  width: 60%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+  animation-name: modalopen;
+  animation-duration: var(--modal-duration);
+}
 
 @font-face {   font-family: "Minecraftia";
   src: url("Minecraftia.woff2") format("woff2");
   font-weight: normal;
   font-style: normal; }
+
+@media only screen and (max-width: 800px) {
+
+    img{
+      max-width: 50%;
+    }
+  }
