@@ -65,6 +65,35 @@ th{
 }
 
 /*Button Work + Theme Banner --------*/
+/*StuffZ --------*/
+#plantssign{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#blockssign{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#showcasesign{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#buttonplants{
+  position:fixed;
+	top:46%;
+}
+#buttonblocks{
+  position:fixed;
+	top:54%;
+}
+#buttonshowcase{
+  position:fixed;
+	top:62%;
+}
+/*StuffZ --------*/
 /*EquipZ -------*/
 #armorysign{
   display: block;
@@ -102,6 +131,10 @@ th{
 #makepicsmaller2{
   width: 20%;
 }
+#makepicsdistance{
+  margin-bottom: 5%;
+}
+
 /*AppleZ -------*/
 #descriptionsign{
   display: block;
