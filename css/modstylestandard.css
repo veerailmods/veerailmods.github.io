@@ -65,6 +65,18 @@ th{
 }
 
 /*Button Work + Theme Banner --------*/
+/*Inv FriendZ ---------*/
+
+#buttonconfiguration{
+  position:fixed;
+	top:54%;
+}
+#configurationsign{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*Inv FriendZ ---------*/
 /*StuffZ --------*/
 #plantssign{
   display: block;
@@ -134,6 +146,13 @@ th{
 #makepicsdistance{
   margin-bottom: 5%;
 }
+
+/*GolemZ Button*/
+#buttonrecipesgolemz{
+  position:fixed;
+	top:38%;
+}
+/*GolemZ Button*/
 
 /*AppleZ -------*/
 #descriptionsign{
@@ -217,13 +236,6 @@ a:hover{
   animation-name: modalopen;
   animation-duration: var(--modal-duration);
 }
-
-/*GolemZ Button*/
-#buttonrecipesgolemz{
-  position:fixed;
-	top:38%;
-}
-/*GolemZ Button*/
 
 @font-face {   font-family: "Minecraftia";
   src: url("Minecraftia.woff2") format("woff2");
