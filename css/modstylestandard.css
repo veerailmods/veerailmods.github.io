@@ -64,6 +64,10 @@ th{
   width: 60%;
 }
 
+.makepicturessmaller{
+  width: 40%;
+}
+
 /*Button Work + Theme Banner --------*/
 /*Inv FriendZ ---------*/
 
@@ -143,8 +147,14 @@ th{
 #makepicsmaller2{
   width: 20%;
 }
+#makepicsmaller3{
+  width: 35%;
+}
 #makepicsdistance{
   margin-bottom: 5%;
+}
+#makepicsdistancetop{
+  margin-top: 5%;
 }
 
 /*GolemZ Button*/
@@ -229,16 +239,51 @@ a:hover{
   height: 100%;
   width: 100%;
   overflow: auto;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.65);
 }
-
 .modal-content {
-  margin: 10% auto;
-  width: 60%;
+  position: absolute;
+  top: 6%;
+  left: 10%;
+  width: 80%;
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
   animation-name: modalopen;
   animation-duration: var(--modal-duration);
 }
+.modal-header {
+  background: #C6C6C6;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  
+}
+.modal-header .normalpictures{
+  border-style: none;
+}
+.modal-header .leftrightpicturesleft{
+  border-style: none;
+}
+.modal-header .leftrightpicturesright{
+  border-style: none;
+}
+.close {
+  color: #ccc;
+  float: right;
+  font-size: 60px;
+  color: #fff;
+  padding-right: 3%;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+/*BildPopUp*/
 
 @font-face {   font-family: "Minecraftia";
   src: url("Minecraftia.woff2") format("woff2");
@@ -246,8 +291,15 @@ a:hover{
   font-style: normal; }
 
 @media only screen and (max-width: 800px) {
-
     img{
       max-width: 50%;
     }
-  }
+}
+@keyframes modalopen {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
