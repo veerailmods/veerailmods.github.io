@@ -4,7 +4,7 @@ body{
 	font-weight:normal;
 	font-style:normal;
   color:white;
-  font-size:1.5vw;
+  font-size:1.2vw;
 }
 
 a:hover{
@@ -90,11 +90,28 @@ a:hover{
   text-align: center;
 }
 
+.picgetbigxx{
+  display: inline-block;
+  width: 30%;
+  border: 3px solid #000;
+}
+.picgetbigrightxx{
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  border: 3px solid #000;
+}
+
 .picclass{
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding-top: 2%;
+}
+
+.picdistance{
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .button{
@@ -223,6 +240,83 @@ a:hover{
   width: 70%;
   border: 3px solid #000;
 }
+
+/*BildPopUp*/
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+.modal-content {
+  position: absolute;
+  top: 6%;
+  left: 10%;
+  width: 80%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+  animation-name: modalopen;
+  animation-duration: var(--modal-duration);
+}
+.modal-header {
+  background: #C6C6C6;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  
+}
+.modal-header .normalpictures{
+  border-style: none;
+}
+.modal-header .leftrightpicturesleft{
+  border-style: none;
+}
+.modal-header .leftrightpicturesright{
+  border-style: none;
+}
+.close {
+  color: #ccc;
+  float: right;
+  font-size: 60px;
+  color: #fff;
+  padding-right: 3%;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.normalpictures{
+  display: block;
+  border: 3px solid #000;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.leftrightpicturesleft{
+  display: inline-block;
+  width: 40%;
+  border: 3px solid #000;
+  margin-left: 9%;
+}
+.leftrightpicturesright{
+  display: inline-block;
+  width: 40%;
+  border: 3px solid #000;
+  vertical-align: top;
+}
+/*BildPopUp*/
 
 @font-face {   font-family: "Minecraftia";
   src: url("Minecraftia.woff2") format("woff2");
