@@ -1,1 +1,2 @@
-# Official ModZ Wiki
+# ModZ Wiki
+My first try to create a website.
