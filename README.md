@@ -1,1 +1,1 @@
-# Official ModZ Wiki
+# Info Page
