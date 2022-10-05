@@ -16,6 +16,14 @@ body{
 	margin-right: 10%;
 }
 
+#text{
+	text-align: left;
+	line-height: 2em;
+	padding-top: 2%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
 #banner {
 	margin-top: 2%;
   	display: flex;
